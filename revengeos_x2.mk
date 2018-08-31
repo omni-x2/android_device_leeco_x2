@@ -31,9 +31,9 @@ $(call inherit-product, vendor/revengeos/config/common_full_phone.mk)
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := revengeos_x2
 PRODUCT_DEVICE := x2
-PRODUCT_MANUFACTURER := LeEco
 PRODUCT_BRAND := LeEco
 PRODUCT_MODEL := Le Max 2
+PRODUCT_MANUFACTURER := LeEco
 
 PRODUCT_GMS_CLIENTID_BASE := android-leeco
 
