@@ -69,6 +69,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapminfree=4m \
     dalvik.vm.heapmaxfree=8m
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service
+
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
