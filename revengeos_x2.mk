@@ -25,8 +25,10 @@ TARGET_GAPPS_ARCH := arm64
 USE_GCAM := true
 TARGET_DENSITY := xxxhdpi
 TARGET_BOOT_ANIMATION_RES := 1440
-#$(call inherit-product, vendor/aosp/common.mk)
-$(call inherit-product, vendor/revengeos/config/common_full_phone.mk)
+
+# Inherit some common CarbonRom stuff.
+$(call inherit-product, vendor/revengeos/config/common.mk)
+$(call inherit-product, vendor/revengeos/config/gsm.mk) 
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := revengeos_x2
