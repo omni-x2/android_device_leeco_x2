@@ -21,6 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/leeco/x2/device.mk)
 
 # Inherit some common AOSP stuff.
+IS_PHONE := true
 TARGET_GAPPS_ARCH := arm64
 USE_GCAM := true
 TARGET_DENSITY := xxxhdpi
