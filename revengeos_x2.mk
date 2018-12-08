@@ -26,8 +26,9 @@ TARGET_GAPPS_ARCH := arm64
 USE_GCAM := true
 TARGET_DENSITY := xxxhdpi
 TARGET_BOOT_ANIMATION_RES := 1440
+REVENGEOS_BUILDTYPE := OFFICIAL
 
-# Inherit some common CarbonRom stuff.
+# Inherit some common RevengeOS stuff.
 $(call inherit-product, vendor/revengeos/config/common.mk)
 $(call inherit-product, vendor/revengeos/config/gsm.mk) 
 
