@@ -23,10 +23,6 @@
 
 $(call inherit-product-if-exists, vendor/leeco/x2/x2-vendor.mk)
 
-# LePref
-PRODUCT_PACKAGES += \
-    LePref
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
